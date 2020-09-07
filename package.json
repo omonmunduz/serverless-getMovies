@@ -1,0 +1,18 @@
+{
+  "name": "serverless-getmovies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "develop": "gatsby develop"
+  },
+  "author": "Omurbek Nazarov",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "gatsby": "^2.24.53",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
