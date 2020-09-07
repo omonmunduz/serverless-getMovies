@@ -12,6 +12,7 @@
   "dependencies": {
     "axios": "^0.20.0",
     "gatsby": "^2.24.53",
+    "node-fetch": "^2.6.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
@@ -20,5 +21,3 @@
     "url": "git+https://github.com/omonmunduz/serverless-getMovies"
   }
 }
-
-

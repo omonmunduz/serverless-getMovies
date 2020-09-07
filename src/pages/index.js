@@ -30,6 +30,16 @@ export default () => {
                                 <h3 className = {styles.heading}>{movie.title}</h3>
                                 <p className = {styles.tagline}>{movie.tagline}</p>
                                 <h5 className = {styles.ratings}>View Ratings</h5>
+                                <ul>
+                                    <li>{movie.scores.map(score => {
+                                        const source = score.Source === 'Internet Movie Database' ? 'IMDb' : score.Source
+                                        return(
+                                            <>
+                                                <span className = {styles.score}>{source}: {score.Value}</span>:
+                                            </>
+                                        )
+                                    })}</li>
+                                </ul>
                             </div>
                         )
                     })}
