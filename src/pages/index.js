@@ -2,15 +2,17 @@ import React,{ useState, useEffect} from 'react';
 import axios from 'axios';
 import styles from './style.module.css';
 
+import Form from '../components/form';
+
 
 
 export default () => {
-    const [ movies, setMovies ] = useState([]);
+    const [ movies, setMovies ] = useState(null);
 
     useEffect(()=>{
         axios('/api/movies').then((res)=> setMovies(res.data))
           
-    },[setMovies])
+    },[])
     
 
     if(!movies){
@@ -20,7 +22,7 @@ export default () => {
     return (
         <>
             <header><h1>DMDB</h1></header>
-            
+            <Form/>
             <main>
                 <div className = {styles.movies}>
                     {movies.map(movie => {
