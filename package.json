@@ -2,11 +2,11 @@
   "name": "serverless-getmovies",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "gatsby-config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "develop": "gatsby develop",
-    "build": "gatsby build",
+    "build": "gatsby build"
   },
   "author": "Omurbek Nazarov",
   "license": "ISC",
