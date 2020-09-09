@@ -42,40 +42,6 @@ main {
     max-width: 700px;
     margin: 0 auto;
 }
-.movies {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-.movie {
-    width: 280px;
-    height: 700px;
-    margin: 1.50rem;
-    position: relative;
-}
-.poster {
-    width: 280px;
-}
-.heading {
-    text-align: center;
-    line-height: 2rem;
-    padding: 1rem;
-}
-.tagline {
-    font-size: 1.111em;
-}
-.ratings {
-    color: #725AC1;
-    letter-spacing: 0.75rem;
-    cursor: pointer;
-}
-.score {
-    font-size: 15px;
-    color:#C3423F;
-    margin:1rem;
-}
-
 footer {
     width: 100vw;
     display: flex;

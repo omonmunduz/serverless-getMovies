@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './form.module.css';
-import axios from 'axios';
 
 const Form = () => {
 

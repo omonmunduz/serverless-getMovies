@@ -1,0 +1,22 @@
+.form {
+    width: 70%;
+    max-width:550px ;
+    margin: 2rem auto;
+}
+label {
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    display: block;
+}
+input {
+    display: block;
+    width: 400px;
+    padding: 8px;
+    font-size: 12px;
+}
+.submitBtn {
+    width: 150px;
+    padding:11px;
+    margin-top: 1rem;
+    cursor: pointer;
+}
