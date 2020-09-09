@@ -1,8 +1,7 @@
 import React,{ useState, useEffect} from 'react';
 import axios from 'axios';
-import styles from './style.module.css';
 
-import Form from '../components/form';
+import styles from './style.module.css';
 import Movies from '../components/movies';
 
 
@@ -21,7 +20,6 @@ export default () => {
     return (
         <>
             <header><h1>DMDB</h1></header>
-            <Form/>
             <main>
                 <Movies movies = {movies}/>
             </main>
